@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+			Developed by Dylan Woodard (dfw5052@psu.edu) during the Money20/20 Hackathon 2017.
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Clover On The Move</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Welcome to Clover on the Move!</h1>
+			<h2>DASHBOARD</h2>
+			<h5>Please select your intended location</h5>
+			<button id = "Past Locations" onclick = "showPastLocations">PAST LOCATIONS</button>
+			<button id = "Suggested Locations" onclick "showSuggestedLocations">SUGGESTED LOCATIONS</button>
+			<button id = "Upcoming Local Events" onclick "showUpcomingEvents">UPCOMING EVENTS</button>
+			<button id = "Shared Success Data" onclick "getSharedSuccessData">SHARED SUCCESS DATA</button>
+        </div>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
